@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace Stack\Http;
 
@@ -77,8 +77,7 @@ class ServerRequest extends Request implements ServerRequestInterface
         array $queryParams = [],
         $parsedBody = null,
         $protocolVersion = '1.1'
-    )
-    {
+    ) {
         self::validateUploadedFiles($uploadedFiles);
 
         $body = $this->getStream($body);
