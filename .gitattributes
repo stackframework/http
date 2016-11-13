@@ -1,0 +1,9 @@
+# .gitattributes
+tests/ export-ignore
+phpunit.xml.dist export-ignore
+LICENSE export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+
+# Auto detect text files and perform LF normalization
+* text=auto
