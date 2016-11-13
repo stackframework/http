@@ -40,5 +40,4 @@ class EmptyResponse extends Response
     {
         return new static(204, $headers);
     }
-
 }

@@ -141,5 +141,4 @@ abstract class AbstractSerializer
 
         return str_replace(' ', '-', $filtered);
     }
-
 }

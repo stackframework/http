@@ -240,3 +240,4 @@ class CallbackStream implements StreamInterface
         return empty($this->callback);
     }
 }
+
