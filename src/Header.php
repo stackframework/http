@@ -151,7 +151,6 @@ class Header
         self::assertValidHeaderValue($value);
 
         return [$name, $value];
-
     }
 
     /**
